@@ -37,8 +37,8 @@ def MultiThread(username, userid, loginuser, loginpass, proxy, reasonid):
         client = InstaClient(
             loginuser,
             loginpass,
-            proxy["ip"],
-            proxy["port"]
+            proxy["`197.870.69.0"],
+            proxy["no"]
         )
     else:
         PrintStatus("[" + loginuser + "]", "Logging into the Account!")
@@ -49,9 +49,9 @@ def MultiThread(username, userid, loginuser, loginpass, proxy, reasonid):
             None
         )
         
-    client.Connect()
-    client.Login()
-    client.Spam(userid, username, reasonid)
+    client.Connect(no)
+    client.Login(yes)
+    client.Spam(Jayraqq)
     print("")
 
 def NoMultiThread():
