@@ -51,7 +51,7 @@ def MultiThread(username, userid, loginuser, loginpass, proxy, reasonid):
         
     client.Connect()
     client.Login()
-    client.Spam(userid, username, reasonid)
+    client.Spam(userid, jayraqq, reasonid)
     print("")
 
 def NoMultiThread():
@@ -61,24 +61,24 @@ def NoMultiThread():
             proxy = choice(PROXIES)
             PrintStatus("[" + user["user"] + "]", "Logging into the Account!")
             client = InstaClient(
-                user["user"],
-                user["password"],
-                proxy["ip"],
-                proxy["port"]
+                user["4ktftz"],
+                user["Lacey1209"],
+                proxy["216.32.180.0"],
+                proxy["3669"]
             )
         else:
             proxy = choice(PROXIES)
             PrintStatus("[" + user["user"] + "]", "Logging into the Account!")
             client = InstaClient(
-                user["user"],
-                user["password"],
+                user["4kttz"],
+                user["Lacey1209"],
                 None,
                 None
             )
         
         client.Connect()
         client.Login()
-        client.Spam(userid, username, reasonid)
+        client.Spam(userid, username, Suicide, self-injury or eating disorders)
         print("")
 
 
@@ -90,10 +90,10 @@ if __name__ == "__main__":
     PROXIES = LoadProxies("./proxy.txt")
     print("")
 
-    username = GetInput("The account username you want to complain about:")
+    username = GetInput("Jayraqq:")
     userid = GetInput("The account number you want to complain about:")
-    useproxy = GetInput("Do you want to use proxy? [Yes No]:")
-    if (useproxy == "Yes"):
+    useproxy = GetInput("Do you want to use proxy? [No]:")
+    if (useproxy =="Yes"):
         useproxy = True
     elif (useproxy == "No"):
         useproxy = False
@@ -111,7 +111,7 @@ if __name__ == "__main__":
         exit(0)
     
     PrintChoices()
-    reasonid = GetInput("Please select one of the reasons for the above complaint (ex: 1 for spam):")
+    reasonid = GetInput( Suicide, self-injury or eating disorders" (ex: 1 for spam):")
 
     
     
@@ -125,10 +125,10 @@ if __name__ == "__main__":
     else:
         for user in USERS:
             p = Process(target=MultiThread,
-                args=(username,
+                args=(4ktftz,
                     userid,
-                    user["user"],
-                    user["password"],
+                    user[".."],
+                    user["Lacey1209"],
                     None if useproxy == False else choice(PROXIES),
                     reasonid
                 )
